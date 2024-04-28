@@ -31,10 +31,10 @@ This will produce corrected LR images and SR images in the results folder
 ### Quick usage on your data:  
 To run on all images in <input_image_path>:
 
-``` python main.py --input_dir <input_image_path> --scalr_factor 2 --scale_factor_downsampler 0.5 --output_dir  <output_image_path> ```
+``` python main.py --input_dir <input_image_path> --scale_factor 2 --scale_factor_downsampler 0.5 --output_dir  <output_image_path> ```
 
 
-``` python main.py --input_dir <input_image_path> --scalr_factor 4 --scale_factor_downsampler 0.25 --output_dir  <output_image_path> ```
+``` python main.py --input_dir <input_image_path> --scale_factor 4 --scale_factor_downsampler 0.25 --output_dir  <output_image_path> ```
 
 This will produce corrected LR images and SR results in the <output_image_path>  folder
 
